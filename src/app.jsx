@@ -2,12 +2,12 @@ import "./app.css";
 import React from "react";
 
 import Card from "./components/layout/card";
-import First from "./components/first";
-import Parametro from "./components/parametro";
-import Filhos from "./components/child";
-import Repeticao from "./components/repetition";
-import Condicao from "./components/condition";
-import CondicaoV2 from "./components/conditionV2";
+import First from "./components/basics/first";
+import Parametro from "./components/basics/parameter";
+import Filhos from "./components/basics/child";
+import Repeticao from "./components/basics/repetition";
+import Condicao from "./components/basics/condition";
+import CondicaoV2 from "./components/basics/conditionV2";
 
 const app = (props) => (
     <div className="App">
