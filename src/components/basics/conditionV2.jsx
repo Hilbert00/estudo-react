@@ -1,7 +1,7 @@
 import React from "react";
 import If from "./if";
 
-const cond = (props) => (
+const Cond = (props) => (
     <div>
         <h2>O número {props.num} é</h2>
         <If test={props.num % 2 === 0}>
@@ -13,4 +13,4 @@ const cond = (props) => (
     </div>
 );
 
-export default cond;
+export default Cond;

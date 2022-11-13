@@ -1,10 +1,10 @@
 import React from "react";
 
-const func = (props) => (
+const Func = (props) => (
     <div>
-        <h3>{props.titulo}</h3>
+        <h2>{props.titulo}</h2>
         <p>{props.subtitulo}</p>
     </div>
 );
 
-export default func;
+export default Func;

@@ -1,0 +1,19 @@
+#BubbleBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5% 0;
+}
+
+.Bubble {
+    background-color: #ebbc4e;
+    border-radius: 50%;
+    color: #fff;
+    flex-basis: 50px;
+    margin: 1% 1%;
+    height: 50px;
+}
+
+.Bubble p {
+    margin-top: 9px;
+}

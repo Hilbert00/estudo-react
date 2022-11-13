@@ -2,7 +2,7 @@ import React from "react";
 
 import produtos from "../../data/products";
 
-const repetition = (props) => {
+const Repetition = (props) => {
     function getProductsListItem() {
         return produtos.map((prod) => {
             return (
@@ -21,4 +21,4 @@ const repetition = (props) => {
     );
 };
 
-export default repetition;
+export default Repetition;
